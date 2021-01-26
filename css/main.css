@@ -1,18 +1,15 @@
 body {
     font-size: 20px;
-    font-family:  'Montserrat', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
     line-height: 1.8;
-    color: #f5f6f7;
+    background-image: url("../imagens/background.png");
   }
   
   p {font-size: 16px;}
 
   .margin {margin-bottom: 45px;}
 
-  .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
+
 
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
@@ -41,9 +38,48 @@ body {
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-
-  .btn{
-      width: 150px;
-      height: 150px;
-      background-color: #1abc9c;
+  .navbar-brand{
+    padding-top: 0px;
   }
+  .btn{
+    background-color: #474e5d;
+  }
+  .btn2{
+    width: 150px;
+    height: 150px;
+    background-color: #474e5d;
+    padding-left: 0px;
+    padding-top: 0px;
+    border-radius: 5%;
+  }
+  .margemtop{
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  .btn1{
+    width: 40vw;
+    height: 7vh;
+    display: block;
+    margin-top: 3vh;
+    background-color: #474e5d;
+    border: 1px solid;
+    border-radius: 4%;
+    position:relative;
+    top:50%; 
+    left:30%;
+}
+.btnhover1:hover{
+  background-color: rgba(0, 128, 0, 0.800);
+}
+.btnhover2:hover{
+  background-color: rgba(255, 255, 0, 0.800);
+}
+.btnhover3:hover{
+  background-color: rgba(255, 0, 0, 0.800);
+}
+
+.preto{
+  
+  color: #000000;
+}
+

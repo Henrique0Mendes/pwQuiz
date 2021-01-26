@@ -24,16 +24,16 @@ var bt4 = document.getElementById("button4");
 
 function jogar(contar){
 
-    questao.innerText = (quiz.results[contar].question);
+    questao.innerHTML = (quiz.results[contar].question);
 
     if (quiz.results[contar].type == "multiple"){
-        bt1.innerText = (quiz.results[contar].correct_answer);
-        bt2.innerText = (quiz.results[contar].incorrect_answers[0]);
-        bt3.innerText = (quiz.results[contar].incorrect_answers[1]);
-        bt4.innerText = (quiz.results[contar].incorrect_answers[2]);
+        bt1.innerHTML = "A. "+(quiz.results[contar].correct_answer);
+        bt2.innerHTML = "B. "+(quiz.results[contar].incorrect_answers[0]);
+        bt3.innerHTML = "C. "+(quiz.results[contar].incorrect_answers[1]);
+        bt4.innerHTML = "D. "+(quiz.results[contar].incorrect_answers[2]);
     }else{
-        bt1.innerText = (quiz.results[contar].correct_answer);
-        bt2.innerText = (quiz.results[contar].incorrect_answers);
+        bt1.innerHTML = (quiz.results[contar].correct_answer);
+        bt2.innerHTML = (quiz.results[contar].incorrect_answers);
         bt3.style.display="none";
         bt4.style.display="none";
     }   
