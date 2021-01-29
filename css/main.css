@@ -3,6 +3,7 @@ body {
     font-family: 'Alfa Slab One', cursive;
     line-height: 1.8;
     background-image: url("../imagens/background.png");
+    color: #ffffff;
   }
   
   p {font-size: 16px;}
@@ -17,13 +18,17 @@ body {
   }
 
   .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #474e5d; /* Black Gray */
     color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
   }
 
   .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .navbar {
@@ -51,6 +56,15 @@ body {
     padding-left: 0px;
     padding-top: 0px;
     border-radius: 5%;
+    margin: 0 10px 0 10px;
+
+  }
+  .btn2 img{
+    border: 2px solid #474e5d;
+    
+  }
+  .borda img{
+    border: 2px solid #1abc9c;
   }
   .margemtop{
     padding-top: 15px;
@@ -62,8 +76,6 @@ body {
     display: block;
     margin-top: 3vh;
     background-color: #474e5d;
-    border: 1px solid;
-    border-radius: 4%;
     position:relative;
     top:50%; 
     left:30%;
@@ -77,9 +89,20 @@ body {
 .btnhover3:hover{
   background-color: rgba(255, 0, 0, 0.800);
 }
-
+.btnclickeasy{
+  background-color: rgba(0, 128, 0, 0.800);
+}
+.btnclickmedium{
+  background-color: rgba(255, 255, 0, 0.800);
+}
+.btnclickhard{
+  background-color: rgba(255, 0, 0, 0.800);
+}
 .preto{
   
   color: #000000;
 }
 
+#jogo{
+  display: none;
+}
